@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 import "./barcode.css";
 
-import Html5QrcodePlugin from './Html5QrcodePlugin.js';
-import ResultContainerPlugin from './ResultContainerPlugin.js';
-// import PiracyBarcode from './PiracyBarcode.js'; // Import PiracyBarcode component
+import Html5QrcodePlugin from './Html5QrcodePlugin.jsx';
+import ResultContainerPlugin from './ResultContainerPlugin.jsx';
+import PiracyBarcode from './PiracyBarcode.js'; // Import PiracyBarcode component
 
 const App = (props) => {
     const [decodedResults, setDecodedResults] = useState([]);
@@ -52,7 +52,7 @@ const App = (props) => {
                 />
 
                 {/* Conditionally render PiracyBarcode component only when newData is not null */}
-                {/* {newData && <PiracyBarcode newData={newData} />} */}
+                {newData && <PiracyBarcode newData={newData} />}
 
             </section>
         </div>
