@@ -1,0 +1,91 @@
+/* #html5qr-code-full-region__scan_region{
+width: 500%!important;
+} */
+
+
+#html5qr-code-full-region {
+    border: 0px !important;
+}
+
+#html5qr-code-full-region img {
+   display: none;
+}
+
+#html5qr-code-full-region__scan_region > video:nth-child(2) {
+    display: none!important;
+  }
+
+  /* #html5qr-code-full-region__dashboard_section{
+    display: none!important;
+  } */
+
+ /* #html5qr-code-full-region__dashboard{
+    display: none!important;
+}  */
+
+ /* #html5qr-code-full-region__dashboard_section{
+    display: none!important;
+}  */ 
+
+/* #html5qr-code-full-region__dashboard_section_csr{
+    display: none!important;
+} */
+
+#html5-qrcode-anchor-scan-type-change{
+    display: none!important;
+}
+
+#html5-qrcode-private-filescan-input{
+    display: none!important; 
+}
+
+#html5-qrcode-button-camera-permission {
+    color: transparent;
+    width: 33%!important;
+    padding: 0px!important;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Show the replacement text */
+  #html5-qrcode-button-camera-permission::before {
+    content: "Scan now";
+    color: black; 
+    width: 20%!important;/* Adjust color as needed */
+  }
+
+
+  #html5qr-code-full-region .html5-qrcode-camera-select {
+    display: none;
+}
+
+
+
+
+
+/* .html5-qrcode-element{
+    display: none!important;  
+} */
+
+#html5-qrcode-select-camera{
+    display: none!important;   
+}
+
+
+#html5-qrcode-button-camera-start{
+    display: none!important;  
+}
+
+#html5-qrcode-button-camera-start{
+    display: none!important;  
+}
+
+
+#html5-qrcode-button-camera-stop{
+    display: none!important;
+}
+#html5-qrcode-button-camera-stop{
+    display: none!important;  
+}
