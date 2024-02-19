@@ -1,0 +1,97 @@
+.piracybarcode {
+    text-align: center;
+  }
+  
+  .findbooksearch {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .piracybarcode input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin-right: 1rem;
+    /* visibility: hidden; */
+  }
+  
+  .search-button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .verified {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  #pira {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #distri {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .piracybarcode input[type="text"] {
+      width: calc(100% - 50px);
+      margin: 5px 0;
+    }
+  
+    .search-button {
+      width: calc(50px + 20px);
+      margin-left: 5px;
+    }
+  
+    .piracybarcode h2 {
+      font-size: 1.5rem;
+    }
+  
+    .piracybarcode h5 {
+      font-size: 1rem;
+    }
+  }
+  
+  .scan-button {
+    background-color: #0e4e13; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .scan-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .scan-button:active {
+    background-color: #004080; /* Darker blue on click */
+  }
+  .new-scaaner-and-submit-buttons {
+    margin: 0 auto;
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+  }
